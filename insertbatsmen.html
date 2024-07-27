@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insert Batsman</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Insert Batsman Details</h1>
+    </header>
+    <main class="page-content">
+        <form action="insert" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="role">Role:</label>
+            <input type="text" id="role" name="role" required>
+            <br>
+            <label for="total_runs">Total Runs:</label>
+            <input type="number" id="total_runs" name="total_runs" required>
+            <br>
+            <label for="income">Income:</label>
+            <input type="number" step="0.01" id="income" name="income" required>
+            <br>
+            <label for="native_place">Native Place:</label>
+            <input type="text" id="native_place" name="native_place" required>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+</body>
+</html>
